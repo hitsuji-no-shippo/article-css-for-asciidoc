@@ -4,8 +4,8 @@
 :author: {author-name}
 :!email: {author-email}
 :revnumber: v1.1.0
-:revdate: 2019-12-19T17:41:50+0900
-:revremark: Add log that add MIT LICENSE
+:revdate: 2019-12-19T18:51:59+0900
+:revremark: Add log that add css of asciidoc support.
 :doctype: article
 :description: article-css-for-asciidoc Change Log
 :title:
@@ -43,6 +43,15 @@ ifndef::env-github[:icons: font]
 :issues-url: {repository-url}/issues
 
 == 0.0.0 (2019-12-19)
+
+== Feat
+
+=== Add
+
+* css of asciidoc support. (close link:{issues-url}/3[#3]) +
+  Copy from link:https://github.com/hitsuji-no-shippo/gatsby-simple-blog-with-asciidoctor/tree/bd0ba9f736325446cc58a3db6d35ceccf3f005c8/src/components/Article[
+  gatsby-simple-blog-with-asciidoctor/src/components/Article/*.sccs^]
+
 
 == Docs
 

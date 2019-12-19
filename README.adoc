@@ -1,0 +1,83 @@
+= article-css-for-asciidoc
+:author-name: hitsuji no shippo
+:!author-email:
+:author: {author-name}
+:!email: {author-email}
+:revnumber: v1.0.0
+:revdate: 2019-12-19T18:43:11+0900
+:revremark: First Edition
+:doctype: article
+:description: article-css-for-asciidoc README
+:title:
+:experimental:
+:title-separtor: :
+:showtitle:
+:!sectnums:
+:sectids:
+:toc: preamble
+:sectlinks:
+:sectanchors:
+:idprefix:
+:idseparator: -
+:xrefstyle: full
+:!example-caption:
+:!figure-caption:
+:!table-caption:
+:!listing-caption:
+ifdef::env-github[]
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+ifndef::env-github[:icons: font]
+// Copyright
+:copyright-template: Copyright (c) 2019
+:copyright: {copyright-template} {author-name}
+// Page Attributes
+:page-creation-date: 2019-12-19T18:43:11+0900
+// Variables
+
+== Demo
+
+link:https://lucid-bell-34419c.netlify.com/asciidoc-examples/[
+Asciidoc Examples^].
+
+== Base
+
+[horizontal]
+light:: link:https://github.com/asciidoctor/asciidoctor/blob/12fb0b68859a890f5aadf8c871996ced824a558c/data/stylesheets/asciidoctor-default.css[
+             asciidoctor-default^]
+dark::  link:https://github.com/darshandsoni/asciidoctor-skins/blob/5c3b6b2eaeef19245c3f2248ceed6bb64849286b/css/boot-darkly.css[
+             boot-darkly^]
+
+[IMPORTANT]
+====
+*Welcome pull request for CSS*, because I'm css beginner.
+====
+
+Please check the link:https://github.com/hitsuji-no-shippo/gatsby-simple-blog-with-asciidoctor/pull/66[
+pull request^] for css changes from base to added to this git management.
+
+== Copyright
+
+=== LICENSE
+
+.Project
+This project is licensed under MIT.
+
+.README
+This document is licensed under
+link:https://creativecommons.org/publicdomain/zero/1.0/[
+CC0 1.0].
+
+
+
+{copyright-template} link:https://hitsuji-no-shippo.com[{author-name}]
+
+////
+Asciidoc Copyright
+This asciidoc code is licensed under CC0 1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+////
