@@ -3,9 +3,9 @@
 :!author-email:
 :author: {author-name}
 :!email: {author-email}
-:revnumber: v1.1.0
-:revdate: 2019-12-19T18:51:59+0900
-:revremark: Add log that add css of asciidoc support.
+:revnumber: v1.2.0
+:revdate: 2020-01-04T19:44:43+0900
+:revremark: Add log that change article selector
 :doctype: article
 :description: article-css-for-asciidoc Change Log
 :title:
@@ -39,8 +39,19 @@ ifndef::env-github[:icons: font]
 :page-creation-date: 2019-12-19T17:41:00+0900
 // Variables
 :github-url: https://github.com
-:repository-url: {github-url}/hitsuji-no-shippo/article-css-for-asciidoc
+:github-profile-url: {github-url}/hitsuji-no-shippo
+:repository-url: {github-profile-url}/article-css-for-asciidoc
 :issues-url: {repository-url}/issues
+
+:gatsby-simple-blog-with-asciidoctor-url: {github-profile-url}/gatsby-simple-blog-with-asciidoctor
+== 0.1.0 (2020-01-04)
+
+=== Breaking Changes
+
+* Article selector. (close link:{issues-url}/4[#4]) +
+  link:{gatsby-simple-blog-with-asciidoctor-url}/issues/91[
+  Relation issue^]
+
 
 == 0.0.0 (2019-12-19)
 
@@ -49,7 +60,7 @@ ifndef::env-github[:icons: font]
 === Add
 
 * css of asciidoc support. (close link:{issues-url}/3[#3]) +
-  Copy from link:https://github.com/hitsuji-no-shippo/gatsby-simple-blog-with-asciidoctor/tree/bd0ba9f736325446cc58a3db6d35ceccf3f005c8/src/components/Article[
+  Copy from link:{gatsby-simple-blog-with-asciidoctor-url}/tree/bd0ba9f736325446cc58a3db6d35ceccf3f005c8/src/components/Article[
   gatsby-simple-blog-with-asciidoctor/src/components/Article/*.sccs^]
 
 

@@ -48,7 +48,7 @@
 /* Based on Darkly from Bootswatch (http://bootswatch.com/darkly/) */
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic");
 /* document body (contains all content) */
-body.dark article[class=content] {
+body.dark article .content {
 
   /* document header (contains title etc) */
   #header {
