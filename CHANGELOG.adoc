@@ -3,9 +3,9 @@
 :!author-email:
 :author: {author-name}
 :!email: {author-email}
-:revnumber: v1.2.0
-:revdate: 2020-01-04T19:44:43+0900
-:revremark: Add log that change article selector
+:revnumber: v1.3.0
+:revdate: 2020-02-18T16:29:46+0900
+:revremark: Add log that add color of title in dark.
 :doctype: article
 :description: article-css-for-asciidoc Change Log
 :title:
@@ -44,7 +44,7 @@ ifndef::env-github[:icons: font]
 :issues-url: {repository-url}/issues
 
 :gatsby-simple-blog-with-asciidoctor-url: {github-profile-url}/gatsby-simple-blog-with-asciidoctor
-== 0.1.0 (2020-01-04)
+== 0.1.0 (2020-02-18)
 
 === Breaking Changes
 
@@ -52,30 +52,35 @@ ifndef::env-github[:icons: font]
   link:{gatsby-simple-blog-with-asciidoctor-url}/issues/91[
   Relation issue^]
 
+=== Features
+
+==== Add
+
+* color of title in dark. (close link:{issues-url}/6[#6])
 
 == 0.0.0 (2019-12-19)
 
-== Feat
+=== Features
 
-=== Add
+==== Add
 
 * css of asciidoc support. (close link:{issues-url}/3[#3]) +
   Copy from link:{gatsby-simple-blog-with-asciidoctor-url}/tree/bd0ba9f736325446cc58a3db6d35ceccf3f005c8/src/components/Article[
   gatsby-simple-blog-with-asciidoctor/src/components/Article/*.sccs^]
 
 
-== Docs
+=== Docs
 
 * add MIT LICENSE. (close link:{issues-url}/2[#2])
 
-== Chore
+=== Chore
 
 * add .gitignore. (close link:{issues-url}/1[#1])
 
 
-== Copyright
+=== Copyright
 
-=== LICENSE
+== LICENSE
 
 This document is licensed under
 link:https://creativecommons.org/publicdomain/zero/1.0/[
