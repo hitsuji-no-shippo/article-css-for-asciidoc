@@ -3,9 +3,9 @@
 :!author-email:
 :author: {author-name}
 :!email: {author-email}
-:revnumber: v1.0.0
+:revnumber: v1.1.0
 :revdate: 2019-12-19T18:43:11+0900
-:revremark: First Edition
+:revremark: Update demo url.
 :doctype: article
 :description: article-css-for-asciidoc README
 :title:
@@ -41,8 +41,8 @@ ifndef::env-github[:icons: font]
 
 == Demo
 
-link:https://lucid-bell-34419c.netlify.com/asciidoc-examples/[
-Asciidoc Examples^].
+link:https://gatsby-simple-blog-with-asciidoctor-demo.netlify.com/asciidoctor-examples/[
+Asciidoctor Examples^].
 
 == Base
 
